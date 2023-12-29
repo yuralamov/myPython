@@ -1,8 +1,9 @@
 The installation is also small
 
 https://www.python.org/
-## https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python
-## Your attention to versions and number of processor cores ( -j128432 ;)
+https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python
+Your attention to versions and number of processor cores ( -j128432 ;)
+
 ## OpenSSL (3.2.0)
 curl -O https://www.openssl.org/source/openssl-3.2.0.tar.gz
 tar xzf openssl-3.2.0.tar.gz
@@ -12,6 +13,7 @@ make -j1 depend
 make -j4
 sudo make install_sw
 popd
+
 ## Python (3.12.1)
 wget https://www.python.org/ftp/python/3.12.1/Python-3.12.1.tgz
 ## Include the source code (Uncomment the terms in your /etc/apt/sources.list)
