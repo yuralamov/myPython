@@ -3,8 +3,8 @@ https://www.youtube.com/watch?v=teum0lI8Efs&t=1266s
 '''
 
 from tkinter import *
-from tkinter import ttk,messagebox
-import googletrans
+from tkinter import ttk, messagebox
+from googletrans import Translator
 import textblob
 
 
