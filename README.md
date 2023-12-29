@@ -7,8 +7,8 @@ https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-vers
 Your attention to versions and number of processor cores ( -j128432 ;)
 
 -- OpenSSL (3.2.0)
-curl -O https://www.openssl.org/source/openssl-3.2.0.tar.gz
-tar xzf openssl-3.2.0.tar.gz
+$ curl -O https://www.openssl.org/source/openssl-3.2.0.tar.gz
+$ tar xzf openssl-3.2.0.tar.gz
 pushd openssl-3.2.0
 ./config --prefix=/usr/local/custom-openssl --libdir=lib --openssldir=/etc/ssl
 make -j1 depend
