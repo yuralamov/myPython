@@ -26,4 +26,5 @@ tar -xf Python-3.12.1.tgz && cd Python-3.12.1
 ./configure --enable-optimizations  
 make -j 4  
 sudo make altinstall  
+python3.12 -V  
 ## prefix=/usr/local By default  
