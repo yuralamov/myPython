@@ -1,10 +1,12 @@
 The installation is also small
 
-https://www.python.org/ 
-https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python 
+https://www.python.org/
+
+https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python
+
 Your attention to versions and number of processor cores ( -j128432 ;)
 
-## OpenSSL (3.2.0)
+-- OpenSSL (3.2.0)
 curl -O https://www.openssl.org/source/openssl-3.2.0.tar.gz
 tar xzf openssl-3.2.0.tar.gz
 pushd openssl-3.2.0
