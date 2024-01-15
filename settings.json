@@ -1,0 +1,87 @@
+{
+// Оформление
+    "window.commandCenter": false,
+    "workbench.colorTheme": "One Dark Pro",           // Цветовая тема (Aura Dracula Spirit или Aura Theme)
+    "workbench.iconTheme": "material-icon-theme",     // Тема иконок
+    "material-icon-theme.hidesExplorerArrows": true,  // Курсор раскрытия папок
+    "workbench.tree.renderIndentGuides": "none",      // Строка выделения проводника
+    "workbench.sideBar.location": "right",            // Проводник
+    "workbench.activityBar.location": "top",          // Расположение-скрытие панели действий
+    "workbench.statusBar.visible": true,              // Скрытие панели состояния
+    "workbench.editor.showTabs": "multiple",          // Панель вкладок
+    "workbench.layoutControl.enabled": true,          // Иконки разделения окна
+    "workbench.startupEditor": "none",                // Окно приветствия
+    "workbench.tips.enabled": false,                  // Стартовая подсказка кнопок
+    "extensions.ignoreRecommendations": true,         // Игнорировать рекомендации
+    "files.autoSave": "afterDelay",                   // Автосохранение после...
+    "files.autoSaveDelay": 5000,                      // ...5 сек
+    "workbench.colorCustomizations":                  // Кастомизация цвета
+    {
+        "editorSuggestWidget.selectedBackground": "#231739",   // Активный пункт окна автодополнения
+        "sideBar.background": "#19191a",                       // Задний цвет проводника
+        "editor.background": "#140E1A",                        // Задний цвет редактора
+        "list.activeSelectionBackground": "#231739",           // {Цвета строки проводника
+        "list.activeSelectionForeground": "#ff0000",           // Активный цвет строки выбора
+        "list.inactiveSelectionBackground": "#231739",         //
+        "list.focusBackground": "#231739",                     //
+        "list.hoverBackground": "#231739",                     // }
+        "terminalCursor.foreground": "#C45DFF",
+        "terminal.background": "#101010"
+},
+// Проводник
+    "breadcrumbs.enabled": false,          // Хлебные крошки
+    "explorer.confirmDragAndDrop": false,  // Всплывающее окно
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,      // Древоводная структура проводника
+    "explorer.autoReveal": false,
+// Git
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "git.autoRepositoryDetection": "subFolders",
+// Редактор
+    "editor.fontFamily": "MesloLGS NF, JetBrainsMono Nerd Font", // Шрифт редактора https://www.jetbrains.com/lp/mono/; https://www.nerdfonts.com/font-downloads
+    "editor.fontSize": 15,                                          // Размер шрифта редактора
+    "editor.minimap.enabled": false,                                // Мини карта
+    "editor.cursorBlinking": "expand",                              // Анимация курсора
+    "editor.cursorSmoothCaretAnimation": "on",                      // Анимация перемещения курсора
+    "editor.fontLigatures": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.lineHeight": 1.5,
+    "files.insertFinalNewline": true,                               // Добавляе строку в конце файла
+// Терминал
+    "terminal.integrated.fontFamily": "MesloLGS NF, JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 13,                             // Размер шрифта терминала
+    "terminal.integrated.tabs.enabled": false,                      // Скрытие списка терминалов
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyleInactive": "line",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "window.menuBarVisibility": "toggle",
+    "update.showReleaseNotes": false,
+// Python
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.enablePytestSupport": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
