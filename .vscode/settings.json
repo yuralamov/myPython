@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "MesloLGS NF, JetBrainsMono Nerd Font",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontFamily": "MesloLGS NF, JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "files.autoSaveDelay": 2000,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.linux": "zsh"
+}
