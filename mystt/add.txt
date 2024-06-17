@@ -1,0 +1,25 @@
+Ввод с микрофона
+Преобразование в текст
+Преобразование в нормализованный текст
+Выборка числовых
+Преобразование числовых в числа
+Выборка ключевых фраз
+Действия по ключевым фразам
+
+
+Проект Natasha — набор Python-библиотек для обработки текстов на естественном русском языке
+https://natasha.github.io/
+https://habr.com/ru/articles/516098/
+
+Библиотека num2words — перевод чисел в слова
+https://dvmn.org/encyclopedia/modules/num2words/
+
+words2numsrus - Модуль, который может конвертировать русские числовые слова в числа
+https://pypi.org/project/words2numsrus/
+https://github.com/SergeyShk/Word-to-Number-Russian
+
+
+ru-word2number - Convert russian number words eg. триста сорок два to numbers (342)
+https://pypi.org/project/ru-word2number/
+
+https://habr.com/ru/companies/ods/articles/660041/
